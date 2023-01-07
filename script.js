@@ -15,7 +15,6 @@
     //     let datas = data.split('').reverse().join('');
     //     alert(datas);
     // }
-    
     // reverseString();
 
     // REVERSING A STATEMENT
@@ -29,18 +28,31 @@
      
    
 //    console.log(values);
-
+//    const value = prompt('Type here');
 //    function reverseState(){
-//     let values = value.split(' ').reverse().join(' ');
-//     alert(values);
+//         let values = value.split(' ').reverse().join(' ');
+//         alert(values);
 //    }
 //    reverseState();
 
 
    // COMBINING BOTH TYPES
    const data = prompt('Input your desired statement');
-   const value = prompt('Type in here');
 
-   if (data.value === ) {
-    
-   }
+    if (data.value === data.split(' ')){
+        function reverseString() {
+            let datas = data.split('').reverse().join(' ');
+            alert(datas);
+        }
+        reverseString();
+    } else if (data.value !== data.split(' ') ){
+        function reverseState(){
+            let datas = data.split('').reverse().join('');
+            alert(datas);
+       }
+       reverseState();
+    } else {
+        alert('Please input a value');
+    }
+
+   
